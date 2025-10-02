@@ -38,7 +38,6 @@ config = ConversationConfig(
 client = ElevenLabs(api_key=API_KEY)
 
 
-
 def print_agent_response(response):
     print(f"Agent: {response}")
 
